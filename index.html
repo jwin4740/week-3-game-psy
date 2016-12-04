@@ -3,39 +3,35 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
     
-    <title>Hangman NFL</title>
+    <title>Psychic game</title>
   </head>
   <body>
   <header class="top">
-      <img class="image" src="assets/images/nflbanner.jpg" alt="nfl image">
       <div class="header"> 
-        <h1 id="title"> HANGMAN NFL THEMED</h1>
+        <h1 style="text-align: center;" id="title"> Psychic</h1>
       </div>
   </header>
 
-  <section class="main">
-   <button onclick= "myBears()">
-Bears!</button>
-<button onclick= "myBearsStart()">
-Start!</button>
-<button onclick= "myPackers()">
-Packers!</button>
-  <h1> Let's play hangman</h1>
-    <div class="container">
-      <div id="board">
-        <p id="letter"></p>
-      </div>
-    </div>
+<main>
 
-    <p id="demo">x</p>
+<p> Guess what letter I am thinking of</p>
 
+<div id="psy">
+<p>Wins: 0</p>
+<p>Losses: 0</p>
+<p>Guesses: 9</p>
+</div>
+
+<div id="log">
+Guesses so far: 
+</div>
+
+
+</main>
  
-   <script type="text/javascript" src="assets/javascript/game.js"></script> 
-  </section>
 
-  <section class="drawing">
     
-  </section>    
   </body>
 </html>
